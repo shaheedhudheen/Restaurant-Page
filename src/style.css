@@ -41,9 +41,9 @@ img {
 
 /* styles */
 
-.navbar{
+.navbar {
     display: flex;
-    justify-content:space-around ;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem;
     background-color: #011619;
@@ -51,23 +51,24 @@ img {
     height: 4rem;
 }
 
-.nav-r{
+.nav-r {
     display: flex;
-    gap: 1rem;    
+    gap: 1rem;
 }
 
-.nav-link{
+.nav-link {
     font-size: 1.25rem;
     font-weight: 700;
     cursor: pointer;
 }
 
-.nav-title{
+.nav-title {
     font-size: 2rem;
     font-weight: 800;
+    cursor: pointer;
 }
 
-.main{
+.main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -77,7 +78,7 @@ img {
     background-color: #011619;
 }
 
-.main-l{
+.main-l {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,21 +88,21 @@ img {
     color: #FFF;
 }
 
-.the{
+.the {
     font-family: 'Indie Flower', cursive;
 }
 
-.fh{
+.fh {
     font-weight: 600;
 }
 
-.main-r{
+.main-r {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.home-image{
+.home-image {
     max-width: 60%;
     height: auto;
     border-radius: 50px;
@@ -110,12 +111,12 @@ img {
 
 /* menu page style*/
 
-.menuTab{
-min-height: calc(100vh - 4rem);
-background-color: #011619;
+.menuTab {
+    min-height: calc(100vh - 4rem);
+    background-color: #011619;
 }
 
-.menu-heading{
+.menu-heading {
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -124,3 +125,28 @@ background-color: #011619;
     color: #FFF;
 }
 
+/* contact */
+
+.contactTab {
+    min-height: calc(100vh - 4rem);
+    background-color: #011619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-heading {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.contact-info{
+    font-size: 3rem;
+    font-weight: 200;
+    color: #FFF;
+}
