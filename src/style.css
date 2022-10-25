@@ -46,7 +46,7 @@ img {
     justify-content:space-around ;
     align-items: center;
     padding: 1rem;
-    background-color: #000;
+    background-color: #011619;
     color: #FFF;
     height: 4rem;
 }
@@ -59,6 +59,7 @@ img {
 .nav-link{
     font-size: 1.25rem;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .nav-title{
@@ -90,6 +91,10 @@ img {
     font-family: 'Indie Flower', cursive;
 }
 
+.fh{
+    font-weight: 600;
+}
+
 .main-r{
     display: flex;
     justify-content: center;
@@ -97,8 +102,25 @@ img {
 }
 
 .home-image{
-    width: 600px;
+    max-width: 60%;
     height: auto;
     border-radius: 50px;
     filter: drop-shadow(0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.1));
 }
+
+/* menu page style*/
+
+.menuTab{
+min-height: calc(100vh - 4rem);
+background-color: #011619;
+}
+
+.menu-heading{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
