@@ -109,21 +109,6 @@ img {
     filter: drop-shadow(0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.1));
 }
 
-/* menu page style*/
-
-.menuTab {
-    min-height: calc(100vh - 4rem);
-    background-color: #011619;
-}
-
-.menu-heading {
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    font-size: 4rem;
-    font-weight: 600;
-    color: #FFF;
-}
 
 /* contact */
 
@@ -145,8 +130,42 @@ img {
     color: #FFF;
 }
 
-.contact-info{
+.contact-info {
     font-size: 3rem;
     font-weight: 200;
     color: #FFF;
+}
+
+
+
+
+/* menu page style*/
+
+.menuTab {
+    min-height: calc(100vh - 4rem);
+    background-color: #011619;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-heading {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.menu-box{
+    margin-top: 3rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
