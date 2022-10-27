@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/static/v1?label=&message=webpack&color=4285F4&style=for-the-badge&logo=webpack&logoColor=white&logoWidth=&labelColor=&link=">
 		<br>
 	</h1>
-	<h3><b><a href="https://shaheedhudheen.github.io/book-library/">View Live Demo</a></b></h3>
+	<h3><b><a href="https://shaheedhudheen.github.io/Restaurant-Page/">View Live Demo</a></b></h3>
 </div>
 
 
