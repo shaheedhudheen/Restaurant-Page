@@ -7,6 +7,8 @@ let names = [
 ];
 
 
+
+
 //create a menu
 function items(names) {
   let menuBox = document.createElement("div");
